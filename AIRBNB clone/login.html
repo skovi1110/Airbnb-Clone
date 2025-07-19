@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Airbnb Login </title>
+   <link rel="icon" href="assests/Image.png">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #fff;
+      color: #222;
+    }
+    .container {
+      max-width: 400px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+    label, select, input {
+      display: block;
+      width: 100%;
+      font-size: 16px;
+    }
+    select, input {
+      padding: 12px;
+      margin-top: 8px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+      border: 1px solid #bbb;
+    }
+    .info-text {
+      font-size: 13px;
+      color: #555;
+      margin-bottom: 20px;
+    }
+    .info-text a {
+      text-decoration: underline;
+      color: #555;
+    }
+    button.continue-btn {
+      width: 100%;
+      background: linear-gradient(to right, #e61e4d, #e31c5f);
+      color: white;
+      font-size: 16px;
+      padding: 14px;
+      border: none;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      cursor: pointer;
+    }
+    .divider {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #aaa;
+      margin-bottom: 20px;
+    }
+    .divider::before, .divider::after {
+      content: "";
+      flex: 1;
+      border-bottom: 1px solid #ccc;
+    }
+    .divider:not(:empty)::before {
+      margin-right: .5em;
+    }
+    .divider:not(:empty)::after {
+      margin-left: .5em;
+    }
+    .social-button {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 12px;
+      border: 1px solid #bbb;
+      border-radius: 10px;
+      font-size: 16px;
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      cursor: pointer;
+    }
+    .social-button img {
+      height: 20px;
+    }
+    .bottom-nav {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 0;
+      background: white;
+      border-top: 1px solid #ccc;
+    }
+    .bottom-nav div {
+      text-align: center;
+      font-size: 12px;
+      color: #555;
+    }
+    .bottom-nav .active {
+      color: #e31c5f;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to Airbnb</h1>
+    <label for="country">Country/Region</label>
+    <select id="country">
+      <option>India (+91)</option>
+    </select>
+    <input type="text" placeholder="Phone number" />
+    <div class="info-text">
+      We’ll call or text you to confirm your number.<br />
+             <a href="#"><b>Privacy Policy</b></a>
+    </div>
+    <button class="continue-btn">Continue</button>
+    <div class="divider">or</div>
+    <div class="social-button">
+      <img src="assests/Google.png"/>
+      Continue with Google
+    </div>
+    <div class="social-button">
+      <img src="assests/Apple.png" />
+      Continue with Apple
+    </div>
+    <div class="social-button">
+      <img src="assests/mail.png" />
+      Continue with email
+    </div>
+    <div class="social-button">
+      <img src="assests/facebook.png" />
+      Continue with Facebook
+    </div>
+  </div>
+ 
+
+  <div>
+ 
+</body>
+
+ <a href="Home.html" style="
+     display: inline-block;
+     padding: 10px 20px;
+     background-color: #FF5A5F;
+     color: white;
+     text-decoration: none;
+     border-radius: 4px;">
+   Previous
+  </a>
+
+ <a href="experience.html" 
+  style=" padding: 10px 20px;
+     background-color: #FF5A5F;
+     color: white;
+     text-decoration: none;
+     border-radius: 4px;
+     float: right;">
+   
+    Next
+  </a>
+
+
+
+</html>
